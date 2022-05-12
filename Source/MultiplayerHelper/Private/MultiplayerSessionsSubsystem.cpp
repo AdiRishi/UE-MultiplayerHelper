@@ -53,6 +53,7 @@ void UMultiplayerSessionsSubsystem::CreateSession(int32 NumPublicConnections, FS
 	LastSessionSettings->bAllowJoinViaPresence = true;
 	LastSessionSettings->bUsesPresence = true;
 	LastSessionSettings->bShouldAdvertise = true;
+	LastSessionSettings->bUseLobbiesIfAvailable = true;
 	LastSessionSettings->Set(FName(TEXT("MatchType")), MatchType, EOnlineDataAdvertisementType::ViaOnlineService);
 
 	const ULocalPlayer* LocalPlayer = GetWorld()->GetFirstLocalPlayerFromController();
