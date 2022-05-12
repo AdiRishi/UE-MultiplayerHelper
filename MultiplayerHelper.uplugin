@@ -2,7 +2,7 @@
 	"FileVersion": 3,
 	"Version": 1,
 	"VersionName": "1.0",
-	"FriendlyName": "MultiplayerHelper",
+	"FriendlyName": "Multiplayer Helper",
 	"Description": "A plugin with common multiplayer tools and implementations",
 	"Category": "Utility",
 	"CreatedBy": "Adishwar Rishi",
